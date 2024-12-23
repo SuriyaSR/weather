@@ -17,6 +17,7 @@ body{
 
 .container{
     width: 350px;
+    min-height: 550px;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -59,6 +60,7 @@ body{
 .image img{
     width: 160px;
     height: 160px;
+    cursor: pointer;
 }
 
 .temp,
@@ -140,4 +142,14 @@ body{
 
 .copyright span {
     color: #333;
+}
+
+.loading-message,
+.error-message,
+.city-not-found {
+    margin-top: 10px;
+    color: #888;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
 }
